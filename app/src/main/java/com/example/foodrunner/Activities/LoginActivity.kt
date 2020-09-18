@@ -160,12 +160,14 @@ class LoginActivity : AppCompatActivity() {
             dialog.setMessage(" Internet Connection is not Found")
             dialog.setPositiveButton("Open Settings"){text,listener->
 
-                val settingsIntent = Intent(Settings.ACTION_WIRELESS_SETTINGS)// open settings
+                // open settings
+                val settingsIntent = Intent(Settings.ACTION_WIRELESS_SETTINGS)
                 startActivity(settingsIntent)
                 finish()
             }
             dialog.setNegativeButton("Exit"){text, listener->
-                ActivityCompat.finishAffinity(this) // this code is used to finish the app at any moment
+                // this code is used to finish the app at any moment
+                ActivityCompat.finishAffinity(this)
             }
             dialog.create()
             dialog.show()
