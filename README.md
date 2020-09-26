@@ -29,7 +29,7 @@ I built a food ordering application with the following functionalities:
 12. A ‘Restaurant Details’ page which displays the menu items of that particular restaurant, each item’s price and the option to add an item to cart.
 13. A ‘Cart’ which lists the items added to cart and the total amount to be paid.
 
-#Technology And Tools Used
+Technology And Tools Used
       Android Studio – IDE used to make android apps
       Kotlin – All the logics are coded in this
       XML – used to make the user interface of the app
@@ -37,4 +37,4 @@ I built a food ordering application with the following functionalities:
       JSON – used to transfer the data between the server and the user’s device
       
       
-#Reference : Internshala Android App Development Training
+Reference : Internshala Android App Development Training
