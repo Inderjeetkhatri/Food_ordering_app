@@ -13,12 +13,12 @@ I built a food ordering application with the following functionalities:
 3. A ‘Registration Page’ which enables users to sign up for the app.
 4. A ‘Forgot Password Page’ which enables users to reset their password.
 5. A ‘Navigation Drawer’ with the app logo and user name on top and menu options to open the following pages:
-      a. Home
-      b. User Profile
-      c. Restaurants
-      d. Order History
-      e. Frequently Asked Questions(FAQs)
-      f. Log out
+a. Home
+b. User Profile
+c. Restaurants
+d. Order History
+e. Frequently Asked Questions(FAQs)
+f. Log out
 6. The app fetch the list of all restaurant from the internet using the link of API provided below:
     <http://13.235.250.119/v2/restaurants/fetch_result/>
 7. A ‘My Profile’ page (where the user’s name, phone number, and address is displayed).
@@ -30,11 +30,10 @@ I built a food ordering application with the following functionalities:
 13. A ‘Cart’ which lists the items added to cart and the total amount to be paid.
 
 Technology And Tools Used
-      Android Studio – IDE used to make android apps
-      Kotlin – All the logics are coded in this
-      XML – used to make the user interface of the app
-      SQL – used to store the data on the local devices
-      JSON – used to transfer the data between the server and the user’s device
-      
-      
+1.Android Studio – IDE used to make android apps
+2.Kotlin – All the logics are coded in this
+3.XML – used to make the user interface of the app
+4.SQL – used to store the data on the local devices
+5.JSON – used to transfer the data between the server and the user’s device
+            
 Reference : Internshala Android App Development Training
